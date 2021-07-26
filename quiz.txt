@@ -1,0 +1,160 @@
+==> Identifiers and Data Types Quiz in C  <==
+
+Q1) What will be the output of below C program?
+
+
+#include<stdio.h>
+int main()
+{
+  int abcdefghijkl0123456789 = 9;
+  printf("%d", abcdefghijkl0123456789);
+  return 0;
+}
+
+a) 0
+b) Garbage Value
+c) Compile-time error
+d.) 9
+
+
+
+Q2) Find the output of the given program?
+
+#include<stdio.h>
+int main()
+{
+  int π = 3.14;
+  printf("%d",π);
+  return 0;
+}
+
+a.) Compile-time error
+b) None of these
+c) 3
+d) 3.14
+
+Q3) Find the output of the given program?
+
+#include< stdio.h>
+int main()
+{
+  const float pi = 3.14;
+  pi = 3.14;
+  printf("%d", pi);
+  return 0;
+}
+
+a.) Compile-time error
+b) None of these
+c) 3
+d) 3.14
+
+Q4) What is the output of the given below program?
+
+#include<stdio.h>
+int main()
+{
+  int a = 10;
+  float a = 1.1;
+  printf("%d", a);
+  return 0;
+}
+
+a) 10
+b) 1.1
+c.) Compile-time error
+d) 1
+
+Q5) Find the output of the given program?
+
+#include<stdio.h>
+int main()
+{
+  int a = 10;
+  int A = 20;
+  printf("A = %d", a);
+  return 0;
+}
+
+Q6) Find the output of the below program?
+
+#include<stdio.h>
+int main()
+{
+  const float pi;
+  pi = 3.14;
+  printf("%f",pi);
+  return 0;
+}
+
+a) 0
+b) 3.14
+c) 3
+d.) Compile-time error
+
+	=> Printf() Quiz in C Set-1
+
+Q1) Find the output of the given C program
+
+#include<stdio.h>
+int main()
+{
+  printf("%d Hello %d");
+  return 0;
+}
+
+a) None of these
+b). Garbage_value Hello Garbage_value
+c) 1 Hello 1
+d) 0 Hello 0
+
+
+Q2) Find the output of the given C program.
+
+#include<stdio.h>
+int main()
+{
+  printf("%f Hello %f");
+  return 0;
+}
+
+a) garbage_value Hello garbage_value
+b) None of these
+c) 1.000000 Hello 1.000000
+d.) 0.000000 Hello 0.000000
+
+Q3) Find the output of the given C program.
+
+#include<stdio.h>
+int main()
+{
+  printf("%s Friend %s");
+  return 0;
+}
+
+a) 1 Friend 1
+b) 0 Friend 0
+c) None of these
+d.) garbage_value Friend garbage_value
+
+Q4) Find the output of the given C program.
+
+a). garbage_value Friend garbage_value
+b) None of these
+c) 0 Friend 0
+d) 1 Friend 1
+
+Q5) Find the output of the given C program.
+
+#include<stdio.h>
+int main()
+{
+  printf("%d", 1.9);
+  return 0;
+}
+
+a). garbage value
+b) 1.9
+c) 1
+d) None of these
+

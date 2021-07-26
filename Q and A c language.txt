@@ -1,0 +1,59 @@
+C Data Types Questions :-
+In most of the MNC interview questions such as in ZOHO interview question, IVTL Infoview interview questions, Amazon interview questions, GOOGLE interview questions, Infosys interview questions and even in Voonik interview questions, We come across several Tricky C Questions about which 2:5 of the questions are from data types in c. Solving that kind of tricky C questions is not an easy task for all C programmers. We need more practices to solve it with ease. So we provide 25+ interesting C questions in data types to make your MNC interview very easy.
+
+Data Types Questions and Answers
+
+1. What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	char num = '\010';
+	printf("%d", num);
+	return 0;
+}
+
+
+2. What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	void  num=10;
+	printf("%v", num);
+	return 0;
+}
+
+
+3. What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	printf("%d\t",sizeof(2.5));
+	printf("%d\t",sizeof(2));
+	printf("%d",sizeof('A'));
+	return 0;
+}
+
+4. What will be the output of the C program?
+
+#include<stdio.h>
+int main()
+{
+	float x = 3.14;
+	double y = 3.14;
+	printf("%f %ff",x, y);
+	return 0;
+}
+
+
+Predict the output
+#include <stdio.h>
+ 
+int main()
+{
+   float c = 5.0;
+   printf ("Temperature in Fahrenheit is %.2f", (9/5)*c + 32);
+   return 0;
+}
